@@ -9,7 +9,7 @@ images.forEach(function(image) {
 var animation = setInterval(function() {
     images.forEach(function(image) {
         var opacity = parseFloat(image.style.opacity);
-        if (opacity >= 0.5) {
+        if (opacity >= 0.4) {
             opacity = 0.1;
         }
         image.style.transition = "opacity 1s ease-in-out";
